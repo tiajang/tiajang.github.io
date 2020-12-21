@@ -1,0 +1,144 @@
+.oval-button{
+  margin-top: 75px;
+  border-radius: 50px;
+  height: 60px;
+  width: 300px;
+  color: white;
+  text-shadow: 2px 2px 4px #333;
+  background-color: #4682B4;
+  box-shadow: 2px 2px 5px gray;
+  font-family: 'Noto Serif KR';
+  text-align: center;
+  display: inline-block;
+  vertical-align: center;
+  line-height:55px;
+  font-size: 30px;
+}
+
+th a:hover {
+  background-color: #86EABE;
+  text-shadow: 2px 2px 4px #FFFFFF;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+th a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+th li {
+  font-family: 'Noto Serif KR';
+  font-size: 30px;
+  color: #333;
+}
+
+td li {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; 
+  font-family: 'Noto Serif KR';
+  font-size: 25px;
+  color: #333;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.colour-center {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F0F8FF; 
+  width: 80%;
+}
+
+.gap {
+  vertical-align: center;
+  height:35px;
+  width: 100px;
+}
+
+.large-gap {
+  vertical-align: center;
+  height:220px;
+  width: 100%;
+}
+
+.utsc-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height:120px;
+  width: 300px;  
+}
+
+.bb-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height:80px;
+  width: 300px;  
+}
+
+.thales-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height:200px;
+  width: 300px;  
+}
+
+card {
+  background-color: #4682B4;
+  
+}
+
+card .format {
+  background-color: #4682B4;
+  margin: auto;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+}
+
+card .title {
+  
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px 4px #333;
+  font-family: 'Noto Serif KR';
+  text-align: center;
+  font-size: 30px;  
+}
+
+colour-table {
+  background-color: #F0F8FF; 
+  width: 80%;
+  table-layout: fixed ;
+}
+
+td {
+  width: 40% ;
+}
+
+.oval-skills{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 60px;
+  width: flex;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  background-color: #86EABE;
+  box-shadow: 2px 2px 5px gray;
+  font-family: 'Noto Serif KR';
+  text-align: center;
+  vertical-align: center;
+  line-height:55px;
+  font-size: 30px;
+}
