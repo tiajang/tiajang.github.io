@@ -13,7 +13,7 @@ nav a {
   font-size: 20px;
 }
 nav ul{
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   list-style: none;
   float: right;
   margin: 0;
@@ -59,7 +59,7 @@ nav .logo-img {
 
 .title {
   color: #333;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   padding-top: 75px;
   height: 100px;
   text-align: center;
@@ -72,7 +72,7 @@ nav .logo-img {
 
 .subtitle {
   color: #333;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   padding-top: 75px;
   height: 100px;
   text-align: center;
@@ -85,7 +85,7 @@ nav .logo-img {
 
 .desc {
   color: #333;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +97,7 @@ nav .logo-img {
 
 .text {
   color: #333;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   text-align: center;
   font-size: 20px;
   display: flex;
@@ -147,6 +147,7 @@ nav .logo-img {
   margin-right: auto; 
   width: 80%;
 }
+
 
 
 

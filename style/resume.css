@@ -7,7 +7,7 @@
   text-shadow: 2px 2px 4px #333;
   background-color: #4682B4;
   box-shadow: 2px 2px 5px gray;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   text-align: center;
   display: inline-block;
   vertical-align: center;
@@ -28,7 +28,7 @@ th a.active {
 }
 
 th li {
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   font-size: 30px;
   color: #333;
 }
@@ -37,7 +37,7 @@ td li {
   width: 80%;
   margin-left: auto;
   margin-right: auto; 
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   font-size: 25px;
   color: #333;
 }
@@ -111,7 +111,7 @@ card .title {
   width: 100%;
   color: white;
   text-shadow: 2px 2px 4px #333;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   text-align: center;
   font-size: 30px;  
 }
@@ -136,9 +136,36 @@ td {
   text-shadow: 2px 2px 4px white;
   background-color: #86EABE;
   box-shadow: 2px 2px 5px gray;
-  font-family: 'Noto Serif KR';
+  font-family: 'Signika Negative';
   text-align: center;
   vertical-align: center;
   line-height:55px;
   font-size: 30px;
+}
+
+.card-link:link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Signika Negative';
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-link:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.icon-box { 
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
 }
