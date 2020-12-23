@@ -21,13 +21,12 @@ th a:hover {
   color: black;
 }
 
-/* Add a color to the active/current link */
 th a.active {
   background-color: #4CAF50;
   color: white;
 }
 
-th li {
+li {
   font-family: 'Signika Negative';
   font-size: 30px;
   color: #333;
@@ -169,3 +168,4 @@ td {
     width: 100%;
     color: white;
 }
+

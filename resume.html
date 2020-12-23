@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Resume</title>
-
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
@@ -15,12 +14,19 @@
             href='https://fonts.googleapis.com/css?family=Vollkorn SC'
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-        <link href='https://fonts.googleapis.com/css?family=Signika Negative' rel='stylesheet'>
+        <meta name="viewport" content="width=800" />
+        <link rel="icon" type="image/png" href="/common/img/logo.png" />
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" 
+        />
+        <link 
+            href='https://fonts.googleapis.com/css?family=Signika Negative' 
+            rel='stylesheet'
+        />
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
+    
     <div id="nav-placeholder"></div>
     <script src='/common/main.js'></script>
     
@@ -60,44 +66,44 @@
     <div class="subtitle">
         <a name="Skills">Skills</a>
     </div>
-        <table class="colour-center">
-            <tr>
-                <th> <div class="gap"></div></th>
-                <th><li> Java </li></th>
-                <th> <div class="gap"></div></th>
-                <th><li> C/C++ </li></th>
-                <th> <div class="gap"></div></th>
-            </tr>
-            <tr>
-                <th> <div class="gap"></div></th>
-                <th><li> Python </li></th>
-                <th> <div class="gap"></div></th>
-                <th><li> Object-Oriented Programming </li></th>
-                <th> <div class="gap"></div></th>
-            </tr>
-            <tr>
-                <th> <div class="gap"></div></th>
-                <th><li> Shell scripting </li></th>
-                <th> <div class="gap"></div></th>
-                <th><li> Linux command line </li></th>
-                <th> <div class="gap"></div></th>
-            </tr>
-            <tr>
-                <th> <div class="gap"></div></th>
-                <th><li> Verbal and written communication </li></th>
-                <th> <div class="gap"></div></th>
-                <th><li> Git </li></th>
-                <th> <div class="gap"></div></th>
-            </tr>
-            <tr>
-                <th> <div class="gap"></div></th>
-                <th><li> HTML </li></th>
-                <th> <div class="gap"></div></th>
-                <th><li> Multi-threading </li></th>
-                <th> <div class="gap"></div></th>
-            </tr>
-        </table>
-        <div class="large-gap"></div>
+    <table class="colour-center">
+        <tr>
+            <th> <div class="gap"></div></th>
+            <th><li> Java </li></th>
+            <th> <div class="gap"></div></th>
+            <th><li> C/C++ </li></th>
+            <th> <div class="gap"></div></th>
+        </tr>
+        <tr>
+            <th> <div class="gap"></div></th>
+            <th><li> Python </li></th>
+            <th> <div class="gap"></div></th>
+            <th><li> Object-Oriented Programming </li></th>
+            <th> <div class="gap"></div></th>
+        </tr>
+        <tr>
+            <th> <div class="gap"></div></th>
+            <th><li> Shell scripting </li></th>
+            <th> <div class="gap"></div></th>
+            <th><li> Linux command line </li></th>
+            <th> <div class="gap"></div></th>
+        </tr>
+        <tr>
+            <th> <div class="gap"></div></th>
+            <th><li> Verbal and written communication </li></th>
+            <th> <div class="gap"></div></th>
+            <th><li> Git </li></th>
+            <th> <div class="gap"></div></th>
+        </tr>
+        <tr>
+            <th> <div class="gap"></div></th>
+            <th><li> HTML </li></th>
+            <th> <div class="gap"></div></th>
+            <th><li> Multi-threading </li></th>
+            <th> <div class="gap"></div></th>
+        </tr>
+    </table>
+    <div class="large-gap"></div>
     <div class="subtitle">
         <a name="Education">Education</a>
     </div>
@@ -125,7 +131,29 @@
     </div>
     <div class="colour-center">
     <table class="colour-table">
-        <tr>
+        <tr class="show-mobile">
+            <div class="show-mobile">
+                <card>
+                    <div class="format">
+                        <div class="title">Student Software Developer<br>BlackBerry</div>
+                        <div class="oval-skills">C, Linux, QNX</div>
+                        <div class="title">
+                            September - December 2020
+                        </div>
+                        <img
+                            src="/assets/blackberry.png"
+                            class="bb-img"
+                            title="image from https://blackberry.qnx.com"
+                        />
+                    </div>
+                </card>
+                <div class="gap"></div>
+                <li>Coded in C to fix and maintain command line tools for the QNX Software Development Platform</li>
+                <li>Created staging areas and cross compiled code in Linux host for QNX target</li>
+                <li>Designed and coded Korn shell scripts to test programs and ensure user input was handled effectively</li>
+            </div>
+        </tr>
+        <tr class="hide-mobile">
             <td>
                 <card>
                     <div class="format">
@@ -147,6 +175,7 @@
                 <li>Created staging areas and cross compiled code in Linux host for QNX target</li>
                 <li>Designed and coded Korn shell scripts to test programs and ensure user input was handled effectively</li>
             </td>
+            </div>
         </tr>
     </table>
     </div>
@@ -154,7 +183,31 @@
     <div class="med-gap"></div>
     <div class="colour-center">
     <table class="colour-table">
-        <tr>
+        <tr class="show-mobile">
+            <div class="show-mobile">
+               <card>
+                <div class="format">
+                    <div class="title">Research Engineer Co-op<br>Thales</div>
+                    <div class="oval-skills">C++, Python, Git</div>
+                    <div class="title">
+                        January - April 2020
+                    </div>
+                    <img
+                        src="/assets/thales.png"
+                        class="thales-img"
+                        title="image from https://workday.com"
+                    />
+                </div>
+                </card>
+                <div class="gap"></div>
+                <li>Designed and implemented innovative autoexposure algorithm for a camera to ensure images were well-exposed in a dynamic environment </li>
+                <li>Used Git to collaborate and implement version control for code</li>
+                <li>Implemented techniques to improve efficiency such as Proportional Integral Derivation controller and multi-threading in C++</li>
+                <li>Demonstrated willingness to learn independently by researching and developing solutions to challenges</li>
+                <li>Effectively communicated to a team in meetings and through comprehensive technical reports</li>
+            </div>
+        </tr>
+        <tr class="hide-mobile">
             <td>
                 <card>
                     <div class="format">
@@ -177,7 +230,7 @@
                 <li>Implemented techniques to improve efficiency such as Proportional Integral Derivation controller and multi-threading in C++</li>
                 <li>Demonstrated willingness to learn independently by researching and developing solutions to challenges</li>
                 <li>Effectively communicated to a team in meetings and through comprehensive technical reports</li>
-            </td>
+            </td>      
         </tr>
     </table>
     </div>
@@ -187,7 +240,26 @@
     </div>
     <div class="colour-center">
     <table class="colour-table">
-        <tr>
+        <tr class="show-mobile">
+            <div class="show-mobile">
+                <card>
+                    <div class="format">
+                        <div class="title">Developer</div>
+                        <div><i class="fas fa-laptop icon-box" style="icon-box"></i></div>
+                        <div class="title">Gamified Reward System Website</div>
+                        <div class="oval-skills">Python, Jinja, CSS, JavaScript, MongoDB</div>
+                        <div class="title">
+                            Deployed Links: <a href="https://bytes-restaurants.herokuapp.com/" class="card-link">Restaurant Interface</a> <a href="https://bytes-rewards.herokuapp.com/" class="card-link">Customer Interface</a>
+                        </div>
+                    </div>
+                </card>
+                <div class="gap"></div>
+                <li>Coded customizable bingo board reward system for restaurant and customer users that stored account data that met client specifications </li>
+                <li>Designed and coded user interfaces that were interactive and user-friendly</li>
+                <li>Wrote and ran unit testing and used debugging strategies to ensure code produced appropriate output </li>
+            </div>
+        </tr>
+        <tr class="hide-mobile">
             <td>
                 <card>
                     <div class="format">
@@ -213,7 +285,22 @@
     <div class="med-gap"></div>
     <div class="colour-center">
     <table class="colour-table">
-        <tr>
+        <tr class="show-mobile">
+            <div class="show-mobile">
+                <card>
+                    <div class="format">
+                        <div class="title">Android Application Developer<br>Shopping Application</div>
+                        <div><i class="fas fa-mobile icon-box" style="icon-box"></i></div>
+                         <div class="gap"></div>
+                        <div class="oval-skills">Java, Android Studio</div>
+                    </div>
+                </card>
+                <div class="gap"></div>
+                <li>Coded user-friendly shopping application using object-oriented design that responded to user interaction</li>
+                <li>Collaborated with a team in an agile scrum framework to complete tasks</li>
+            </div>
+        </tr>
+        <tr class="hide-mobile">
             <td>
                 <card>
                     <div class="format">
@@ -235,7 +322,22 @@
     <div class="med-gap"></div>
     <div class="colour-center">
     <table class="colour-table">
-        <tr>
+        <tr class="show-mobile">
+            <div class="show-mobile">
+                <card>
+                    <div class="format">
+                        <div class="title">Developer<br>Battleship</div>
+                        <div><i class="fas fa-ship icon-box" style="icon-box"></i></div>
+                         <div class="gap"></div>
+                        <div class="oval-skills">Java</div>
+                    </div>
+                </card>
+                <div class="gap"></div>
+                <li>Coded a Battleship game using object-oriented design to store and track ship information</li>
+                <li>Demonstrated innovation through the design and implementation of artificial intelligence that resulted in a first place position out of ten teams during the Battleship tournament</li>
+            </div>
+        </tr>
+        <tr class="hide-mobile">
             <td>
                 <card>
                     <div class="format">
